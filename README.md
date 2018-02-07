@@ -62,6 +62,8 @@ Running Serverless projects and functions locally with SAM Local requires Docker
 For macOS and Windows users: SAM local requires that the project directory (or any parent directory) is listed in Docker file sharing options.
 
 Verify that docker is working, and that you can run docker commands from the CLI (e.g. ‘docker ps’). You do not need to install/fetch/pull any containers – SAM Local will do it automatically as required.
+- NOTE : How to share a folder between Docker and Host :https://docs.docker.com/docker-for-mac/osxfs/#namespaces, https://www.digitalocean.com/community/tutorials/how-to-share-data-between-the-docker-container-and-the-host
+
 
 
 ### Windows, Linux, macOS with NPM [Recommended]
